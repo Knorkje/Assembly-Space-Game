@@ -21,3 +21,6 @@ sudo apt update
 sudo apt install libraylib5-dev
 </code>
 
+To compile video.s using gcc, use the following command
+
+<code>gcc -no-pie video.s -o game -lraylib -lm -ldl -lpthread - lx11</code>
